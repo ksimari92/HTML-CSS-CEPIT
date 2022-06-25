@@ -1,0 +1,42 @@
+body {
+    background-color: slategray;
+    /*  background-image: url(../52714.jpg); */
+}
+
+
+/*Selector tag*/
+
+h1 {
+    color: #ff5f6f;
+}
+
+
+/*Selector Clase*/
+
+.parrafo-color {
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/*Selector ID*/
+
+#primer-titulo {
+    text-align: center;
+}
+
+.lista-ordenada {
+    list-style-type: upper-latin;
+}
+
+.lista-desordenada {
+    /* list-style-type: none; /*square // circle*/
+    list-style-image: url(../minimizar.png);
+}
+
+
+/* IMPORTANTE!!
+     PARA IR UN NIVEL MAS ATRAS DE LA CARPETA DONDE NOS POSICIONAMOS DEBEMOS USAR "../" 
+*/
